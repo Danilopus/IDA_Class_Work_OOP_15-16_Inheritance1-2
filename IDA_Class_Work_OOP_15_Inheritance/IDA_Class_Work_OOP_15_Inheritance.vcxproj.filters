@@ -27,6 +27,18 @@
     <ClCompile Include="Task_2_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="AppleTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raspberry_bush.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="raspberry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Service functions.h">
@@ -36,6 +48,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Task_2_class.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AppleTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raspberry_bush.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="raspberry.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

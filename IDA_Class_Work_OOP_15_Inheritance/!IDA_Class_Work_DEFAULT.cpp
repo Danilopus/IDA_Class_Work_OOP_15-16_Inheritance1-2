@@ -8,6 +8,12 @@
 //My own headers
 #include "Service functions.h"
 #include "classes.h"
+//#include "Task_2_class.h"
+#include "AppleTree.h"
+#include "Apple.h"
+#include "Raspberry_bush.h"
+
+
 
 
 
@@ -53,8 +59,8 @@
 //Task 1
 void Task_1()
 {
-	Base objBase;
-	Base objBase_2(1,2,3);
+	//Base objBase; - стал абстрактным классом, создание объектов невозможно
+	//Base objBase_2(1,2,3);
 
 	Derived objDer;
 
@@ -62,17 +68,47 @@ void Task_1()
 
 	Derived3 objDer_3;
 
+	_getch();
 }
 //Task 2
 void Task_2()
 {
-	
+	//Указатель на тип абстрактного класса возможен!
+	Base* Base_obj_ptr;
+
+	Base_obj_ptr = new Derived{ 2,5,6 };
+
+	delete Base_obj_ptr;
+
+
 }
 //Task 3
 void Task_3()
 {
+	//AppleTree appletree_obj(0, Color::white, 5e2);
+	AppleTree appletree_obj(2, Color::white, 5e2);
 
+	appletree_obj.Info();
+
+	Fruit* apple = appletree_obj.Get_fruit();
+		
+	if (apple) apple->Info();
+
+	delete apple;
+
+	std::cout << "\n\n";
+
+	Raspberry_bush Raspberry_bush_obj(0, Color::brown, 50);
+
+	Raspberry_bush_obj.Info();
+
+	Fruit* raspberry = Raspberry_bush_obj.Get_fruit();
+
+	if (raspberry) raspberry->Info();
+
+	delete apple;
 }
+
 
 
 // MAIN ------- MAIN ------- MAIN ------- MAIN ------- MAIN --------
@@ -81,8 +117,8 @@ int main()
 srand(time(NULL));
 		
 	
-Task_1();
-Task_2();
+//Task_1();
+//Task_2();
 Task_3();
 
 
