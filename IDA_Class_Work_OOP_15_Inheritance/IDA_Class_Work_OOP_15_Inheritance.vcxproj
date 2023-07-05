@@ -131,6 +131,7 @@
     <ClCompile Include="AppleTree.cpp" />
     <ClCompile Include="classes.cpp" />
     <ClCompile Include="!IDA_Class_Work_DEFAULT.cpp" />
+    <ClCompile Include="Location.cpp" />
     <ClCompile Include="raspberry.cpp" />
     <ClCompile Include="Raspberry_bush.cpp" />
     <ClCompile Include="Service functions.cpp" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Apple.h" />
     <ClInclude Include="AppleTree.h" />
     <ClInclude Include="classes.h" />
+    <ClInclude Include="Location.h" />
     <ClInclude Include="raspberry.h" />
     <ClInclude Include="Raspberry_bush.h" />
     <ClInclude Include="Service functions.h" />

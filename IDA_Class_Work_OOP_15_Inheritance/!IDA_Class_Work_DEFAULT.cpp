@@ -12,6 +12,7 @@
 #include "AppleTree.h"
 #include "Apple.h"
 #include "Raspberry_bush.h"
+#include "Location.h"
 
 
 
@@ -109,6 +110,18 @@ void Task_3()
 	delete apple;
 }
 
+//Task 4
+void Task_4()
+{
+	TreeLocation new_location(5);
+	new_location.Info();
+	new_location[4].Info();
+	
+	for (const auto& el : new_location)
+		{
+			std::cout << el << " | ";
+		}
+}
 
 
 // MAIN ------- MAIN ------- MAIN ------- MAIN ------- MAIN --------
@@ -119,7 +132,8 @@ srand(time(NULL));
 	
 //Task_1();
 //Task_2();
-Task_3();
+//Task_3();
+Task_4();
 
 
 
