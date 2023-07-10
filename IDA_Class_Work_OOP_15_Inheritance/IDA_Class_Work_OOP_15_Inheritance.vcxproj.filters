@@ -15,16 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="!IDA_Class_Work_DEFAULT.cpp">
+    <ClCompile Include="!_Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Service functions.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="classes.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Task_2_class.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AppleTree.cpp">
@@ -42,6 +39,12 @@
     <ClCompile Include="Location.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Fruit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BackPack.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Service functions.h">
@@ -50,7 +53,7 @@
     <ClInclude Include="classes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Task_2_class.h">
+    <ClInclude Include="MotherPlant.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="AppleTree.h">
@@ -66,6 +69,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Location.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fruit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BackPack.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -121,6 +121,7 @@ void Task_4()
 		{
 			std::cout << el << " | ";
 		}
+
 }
 
 

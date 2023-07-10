@@ -1,5 +1,6 @@
 #pragma once
-#include "Task_2_class.h"
+#include "MotherPlant.h"
+#include "Fruit.h"
 #include "raspberry.h"
 #include "Service functions.h"
 

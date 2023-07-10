@@ -1,7 +1,11 @@
 #pragma once
-#include "Task_2_class.h"
+#include "MotherPlant.h"
 #include "Apple.h"
 #include "Service functions.h"
+
+//extern enum class Color { red, green, yellow, black, brown, white };
+//extern enum class Color;
+
 
 class AppleTree : public MotherPlant
 {

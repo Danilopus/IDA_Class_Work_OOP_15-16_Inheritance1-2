@@ -1,6 +1,6 @@
 #pragma once
 #include <vector>
-#include "Task_2_class.h"
+#include "MotherPlant.h"
 #include "Service functions.h"
 #include "AppleTree.h"
 #include "Raspberry_bush.h"
@@ -87,7 +87,9 @@ public:
 
 	};
 
-	iterator begin() { return _data; }
-	iterator end() { return (_data + _size); }
+	//iterator begin() { return _data; }
+	//iterator begin() { return _plants_list.begin(); }
+	iterator begin() { return _plants_list[0]; }
+	iterator end() { return _plants_list[_plants_list.size()-1]; }
 };
 

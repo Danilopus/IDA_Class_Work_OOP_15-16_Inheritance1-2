@@ -1,33 +1,9 @@
 #pragma once
 #include <string>
 #include <iostream>
+#include "Fruit.h"
 
-enum class Color { red, green, yellow, black, brown, white };
-
-
-class Fruit
-{
-	std::string _name;
-	float _weight;
-	Color _color;
-public:
-	Fruit(std::string name,	float weight, Color color): _name(name), _weight(weight), _color(color){}
-	virtual ~Fruit() {}
-
-	//std::string Get_name() { return _name; }
-	auto Get_name() -> std::string	{ return _name; } 
-	auto Get_weight() { return _weight; }
-	auto Get_weight() const { return _weight; }
-	auto Get_color() { return _color; }
-
-	virtual void Info()
-	{		
-		std::cout << "\n_name   " << _name;
-		std::cout << "\n_weight " << _weight;
-		std::cout << "\n_color  " << int(_color);
-	}
-
-};
+//enum class Color { red, green, yellow, black, brown, white };
 
 class MotherPlant
 {
@@ -49,8 +25,21 @@ public:
 		std::cout << "\n_color " << int(_color);				 
 	}
 
+	virtual void Info() const 
+	{
+		std::cout << "\n_size " << _size;
+		std::cout << "\n_color " << int(_color);
+	}
+
+
 	virtual Fruit* Get_fruit() = 0;
 
+	friend std::ostream& operator << (std::ostream& out, const MotherPlant& MotherPlant_obj)
+	{
+		out << "\n_size " << MotherPlant_obj._size;
+		out << "\n_color " << int(MotherPlant_obj._color);
+		return out;
+	}
 
 };
 

@@ -1,6 +1,6 @@
 #pragma once
 
-#include "Task_2_class.h";
+#include "Fruit.h";
 
 
 class Apple : public Fruit

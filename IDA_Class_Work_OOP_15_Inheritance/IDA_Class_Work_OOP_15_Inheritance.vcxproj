@@ -129,23 +129,26 @@
   <ItemGroup>
     <ClCompile Include="Apple.cpp" />
     <ClCompile Include="AppleTree.cpp" />
+    <ClCompile Include="BackPack.cpp" />
     <ClCompile Include="classes.cpp" />
-    <ClCompile Include="!IDA_Class_Work_DEFAULT.cpp" />
+    <ClCompile Include="!_Main.cpp" />
+    <ClCompile Include="Fruit.cpp" />
     <ClCompile Include="Location.cpp" />
     <ClCompile Include="raspberry.cpp" />
     <ClCompile Include="Raspberry_bush.cpp" />
     <ClCompile Include="Service functions.cpp" />
-    <ClCompile Include="Task_2_class.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Apple.h" />
     <ClInclude Include="AppleTree.h" />
+    <ClInclude Include="BackPack.h" />
     <ClInclude Include="classes.h" />
+    <ClInclude Include="Fruit.h" />
     <ClInclude Include="Location.h" />
     <ClInclude Include="raspberry.h" />
     <ClInclude Include="Raspberry_bush.h" />
     <ClInclude Include="Service functions.h" />
-    <ClInclude Include="Task_2_class.h" />
+    <ClInclude Include="MotherPlant.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
